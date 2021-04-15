@@ -26,7 +26,16 @@
     error_reporting(E_ALL);
     echo "<h1>PHP Array Practice</h1>";
 
+    $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
+    echo "<h2>Print Array Function</h2>";
+    function printArr($incomingArray) {
+        foreach ($incomingArray as $number) {
+            echo "<p>$number</p>";
+        }
+    }
+
+    printArr($numbers);
     
 ?>
 
