@@ -15,7 +15,6 @@
     <title>PHP Array Practice</title>
 </head>
 <body>
-<h1>PHP Array Practice</h1>
 </body>
 </html>
 
@@ -31,13 +30,13 @@
     $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
     echo "<h2>Print Array Function</h2>";
-    function printArr($incomingArray) {
-        foreach ($incomingArray as $number) {
-            echo "<p>$number</p>";
-        }
-    }
+
+    include "functions.php";
 
     printArr($numbers);
+
+    // move the print function into an include file called functions.php in the same directory
+
 ?>
 
 
