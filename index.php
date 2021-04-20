@@ -15,15 +15,17 @@
     <title>PHP Array Practice</title>
 </head>
 <body>
-
+<h1>PHP Array Practice</h1>
 </body>
 </html>
 
 
 
 <?php
-
+    // turn on error reporting
+    ini_set("display_errors", 1);
     error_reporting(E_ALL);
+
     echo "<h1>PHP Array Practice</h1>";
 
     $numbers = array(7, 9, 8, 9, 8, 8, 6);
@@ -36,7 +38,6 @@
     }
 
     printArr($numbers);
-    
 ?>
 
 
