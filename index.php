@@ -29,14 +29,15 @@
 
     $numbers = array(7, 9, 8, 9, 8, 8, 6);
 
-    echo "<h2>Print Array Function</h2>";
-
     include "functions.php";
+
+    echo "<h2>Print Array Function</h2>";
 
     printArr($numbers);
 
-    // move the print function into an include file called functions.php in the same directory
+    echo "<br><h2>Largest Number in Array Function</h2>";
 
+    largest($numbers);
 ?>
 
 
